@@ -1,0 +1,42 @@
+body{
+    font-family: 'IM Fell English SC', serif;
+    background-color:lavenderblush;
+}
+
+.header_div{
+    background-color:ghostwhite;
+    color: red;
+}
+
+.header_div img{
+    width: 100px;
+}
+
+.main_div{
+    background-color: lavender;
+    padding: 10px;
+    margin-top: 15px;
+    border: 3px dashed white;
+}
+
+.main_div label{
+    font-size: 22px;
+    font-family: 'IM Fell English SC', serif;
+    box-shadow: 5px 5px 18px black;
+}
+
+#camera{
+    padding: 5px;
+    padding-right: 5px;
+    border: 3px solid lavenderblush;
+    width: 350px;
+    height: 300px;
+    
+}
+
+.main_div button{
+    width: 150;
+    padding: 10px;
+    margin-top: 10px;
+    border: 2px dashed dodgerblue;
+}
