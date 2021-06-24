@@ -2,7 +2,11 @@ Webcam.set({
     width: 300,
     height: 300,
     image_format: 'png',
-    png_quality: 80
+    png_quality: 80,
+
+    constraints:{
+        facingMode: 'environment'
+    }
 });
 
 camera= document.getElementById("camera");

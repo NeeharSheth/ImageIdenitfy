@@ -25,7 +25,7 @@ body{
     box-shadow: 5px 5px 18px black;
 }
 
-#camera{
+#camera, #result{
     padding: 5px;
     padding-right: 5px;
     border: 3px solid lavenderblush;
@@ -34,9 +34,41 @@ body{
     
 }
 
-.main_div button{
+#button_capture{
     width: 150;
     padding: 10px;
     margin-top: 10px;
     border: 2px dashed dodgerblue;
+}
+
+#button_result{
+    width: 150;
+    padding: 10px;
+    margin-top: 10px;
+    border: 2px dashed lawngreen;
+}
+
+#footer_div{
+    margin-bottom: 50px;
+}
+
+#footer_div h4{
+    background-color: ghostwhite;
+    border-radius: 10px;
+    padding: 5px;
+    box-shadow: 5px 5px 18px white;
+}
+
+#footer_div img{
+width: 70px;
+}
+
+#money_div{
+    text-align: center;
+    color: slategrey;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    line-height: 3;
+    font-size: 30px;
 }
